@@ -1,14 +1,14 @@
-import Cabecalho from "./components/cabecalho/cabecalho";
+import Footer from "./components/footer/footer";
+import Header from "./components/header/header";
 import Main from "./components/main/main";
-import Rodape from "./components/rodape/rodape";
 
 export default function App() {
   
   return (
     <div>
-      <Cabecalho/>
+      <Header/>
       <Main/>
-      <Rodape/>
+      <Footer/>
     </div>
   );
 }
