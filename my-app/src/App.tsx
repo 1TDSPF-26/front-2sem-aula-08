@@ -1,4 +1,5 @@
 import Cabecalho from "./components/Cabecalho/cabecalho";
+import Main from "./components/Main/main";
 import Rodape from "./components/Rodape/rodape";
 
 
@@ -8,6 +9,7 @@ import Rodape from "./components/Rodape/rodape";
       <div>
       <Cabecalho/>
       <Rodape/>
+      <Main/>
       </div>
     );
 

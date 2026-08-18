@@ -1,7 +1,7 @@
 export default function Cabecalho(){
 
     return(
-              <div>
+      <div>
         <header>
           <h1>Meu Componente</h1>
           <nav>

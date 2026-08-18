@@ -2,7 +2,7 @@ export default function Rodape(){
 
     return(
               <div>
-        <header>
+        <footer>
           <h1>Meu Componente</h1>
           <nav>
             <ul>
@@ -12,7 +12,7 @@ export default function Rodape(){
               <li>item-4</li>
             </ul>
           </nav>
-        </header>
+        </footer>
 
         
       
