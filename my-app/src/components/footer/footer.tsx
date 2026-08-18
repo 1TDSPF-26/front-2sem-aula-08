@@ -3,7 +3,7 @@ export default function Footer() {
   return (
     <div>
       <footer>
-        <p>© 2026 - Meu site. Todos os direitos reservados.</p>
+        <p>© FIAP 2026 - Meu site. RM570469.</p>
       </footer>
     </div>
   );
