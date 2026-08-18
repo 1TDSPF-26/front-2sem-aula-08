@@ -1,5 +1,5 @@
 import Cabecalho from "./assets/components/Cabecalho/cabecalho";
-import Rodape from "./assets/components/Main/rodape";
+import Rodape from "./assets/components/Rodape/rodape";
 
   export default function App(){
 
