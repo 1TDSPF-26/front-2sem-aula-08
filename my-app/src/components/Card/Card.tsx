@@ -1,4 +1,4 @@
-export default function Card(prop){
+export default function Card(props:{title: string, nomeProduto: string}) {
     return(
         <div>
             <h2>{props.title}</h2>
