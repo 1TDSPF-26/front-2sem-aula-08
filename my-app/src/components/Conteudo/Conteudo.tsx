@@ -1,12 +1,12 @@
-export default function Conteudo() {
+import Card from "../Card/Card";
 
-    return (
-        <main>
-            <h2>Conteudo:</h2>
-                <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi, quo dolorum? Earum odio dolor vero, exercitationem maxime veniam reiciendis assumenda omnis ipsum quas distinctio hic, quasi possimus porro alias. Vero.
-                </p>
-
-        </main>
-    )
+export default function Conteudo(){
+  return(
+    <main>
+        <h2>Conteúdo aleatório</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem vitae nemo et eum deleniti, dolorum iure unde laborum enim minima veniam cum rerum, facilis quisquam ab quis, ipsam veritatis. Maxime?</p>
+        <Card title="Meu primeiro Card" nomeProduto="Tv" />
+        <Card title="Meu segundo Card" nomeProduto="MICROFONE" />
+    </main>
+  );
 }
