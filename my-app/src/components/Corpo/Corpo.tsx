@@ -1,9 +1,13 @@
+import Card from "../Card/Card";
+
 export default function Corpo() {
     return (
-        <div>
-        <h1>titulo do texto </h1>
+        <main>
+        <h1>Conteúdo Aleatório </h1>
 
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia voluptates commodi dolore necessitatibus.</p>
-        </div>
+        <Card title="Meu primeiro Card" nomeProduto="Tv"/>
+        <Card title="Meu segundo Card" nomeProduto="Microfone"/>
+        </main>
     );
 }
