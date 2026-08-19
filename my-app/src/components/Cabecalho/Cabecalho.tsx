@@ -6,12 +6,12 @@ export default function Cabecalho(){
     <header>
         <h1>Meu componente</h1>
             <nav>
-            <ul>
-                <li>Item-1</li>
-                <li>Item-2</li>
-                <li>Item-3</li>
-            </ul>
+                <ul>
+                    <li>Item-1</li>
+                    <li>Item-2</li>
+                    <li>Item-3</li>
+                </ul>
             </nav>
       </header>
-      )
+    )
 }

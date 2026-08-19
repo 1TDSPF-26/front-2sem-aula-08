@@ -12,5 +12,4 @@ export default function App() {
       <Rodape/>
     </div>
   );
-
 }
