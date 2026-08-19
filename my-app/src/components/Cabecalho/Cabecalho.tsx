@@ -12,5 +12,5 @@ export default function Cabecalho(){
                 </nav>
             </header>
         </div>
-    )
+    );
 }
