@@ -1,6 +1,5 @@
 export default function Cabecalho(){
     return(
-        <div>
             <header>
                 <h1>Meu componente</h1>
                 <nav>
@@ -11,6 +10,6 @@ export default function Cabecalho(){
                     </ul>
                 </nav>
             </header>
-        </div>
+        
     )
 }
