@@ -3,6 +3,7 @@ export default function Cabecalho(){
     return(
             <header>
                 <nav>
+                    <h1>Meu componente</h1>
                     <ul>
                         <li>Item-1</li>
                         <li>Item-2</li>
