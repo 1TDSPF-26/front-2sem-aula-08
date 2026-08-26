@@ -1,7 +1,7 @@
 export default function Cabecalho(){
 
     return(
-        <header>
+        <header className= "bg-slate-800 text-white ">
             <h1>Meu componente</h1>
             <nav>
                 <ul>

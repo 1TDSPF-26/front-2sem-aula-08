@@ -1,0 +1,17 @@
+@import "tailwindcss";
+ 
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+ 
+  body {
+    min-height: 100vh;
+  }
+ 
+  button,
+  a {
+    cursor: pointer;
+  }
+}
+
