@@ -2,7 +2,7 @@ export default function Cabecalho(){
     return (
         <div>
 
-            <header>
+            <header className="bg-blue-800 text-white font-sans flex-row">
                 <h1>Meu primeiro componente</h1>
                 <nav>
                     <ul>
