@@ -1,11 +1,13 @@
 import Card from "../Card/Card";
 
 export default function Conteudo(){
-    return(
-        <main>
-            <h2>Conteudo Aleatorio</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad deserunt ex accusantium cum, esse quibusdam inventore voluptatum libero consectetur et veniam iste. Numquam dolor, molestiae porro ipsam quo nulla doloribus?</p>
-            <Card title="Meu primeiro Card"/>
-        </main>
-    );
+  return(
+    <main>
+        <h2>Conteúdo aleatório</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem vitae nemo et eum deleniti, dolorum iure unde laborum enim minima veniam cum rerum, facilis quisquam ab quis, ipsam veritatis. Maxime?</p>
+        <Card title="Meu primeiro Card" nomeProduto="Tv" />
+        <Card title="Meu segundo Card" nomeProduto="Microfone" />
+
+    </main>
+  );
 }
