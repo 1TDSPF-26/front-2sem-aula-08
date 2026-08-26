@@ -1,16 +1,13 @@
-export default function Cabecalho(){
+import Menu from "../Menu/Menu";
 
-    return(
-        <div>
-            <header><h1>Meu componente</h1></header>
-            <nav>
-                <ul>
-                    <li>Item-1</li>
-                    <li>Item-2</li>
-                    <li>Item-3</li>
-                </ul>
-            </nav>
-        </div>
+export default function Cabecalho() {
+
+    return (
+        <header className="bg-blue-500   text-white font-sans flex-row p-4">
         
-    )
+
+            <h1>Meu componente</h1>
+            <Menu/>
+        </header>
+    );
 }
