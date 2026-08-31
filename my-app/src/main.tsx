@@ -6,15 +6,15 @@ import "./global.css"
 import { createBrowserRouter, RouterProvider } from 'react-router'
 
 import Home from './routes/Home/index.tsx'
-import EditarProduto from './routes/EditarProduto/index.tsx'
+import EditarProdutos from './routes/EditarProdutos/index.tsx'
 import Error from './routes/Error/index.tsx'
 import Produtos from './routes/Produtos/index.tsx'
 
 const router = createBrowserRouter([
   {path: "/", element:<App/>, errorElement: <Error/>, children:[
     {path: "/", element:<Home/>},
-    {path: "/", element:<Produtos/>},
-    {path: "/", element:<EditarProduto/>},
+    {path: "/produtos", element:<Produtos/>},
+    {path: "/editar-produtos/:id", element:<EditarProdutos/>},
   ]}
 ])
 
